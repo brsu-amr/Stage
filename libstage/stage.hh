@@ -746,8 +746,8 @@ namespace Stg
 
       if( str.size() > 0 ) 
 	token = str;
-      else
-	PRINT_ERR( "Ancestor::SetToken() called with zero length string. Ignored." );
+      //else
+	//PRINT_ERR( "Ancestor::SetToken() called with zero length string. Ignored." );
     } 
 	 
     /** A key-value database for users to associate arbitrary things with this model. */
@@ -2015,8 +2015,8 @@ namespace Stg
 	  world->AddModelName( this, str );
 	  Ancestor::SetToken( str );
 	}
-      else
-	PRINT_ERR( "Model::SetToken() called with zero length string. Ignored." );
+      //else
+	//PRINT_ERR( "Model::SetToken() called with zero length string. Ignored." );
     } 
 
 	 
